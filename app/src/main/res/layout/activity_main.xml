@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e1e8f0"
+        tools:context=".MainActivity" android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Name"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#070707"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="182dp"
+            android:layout_height="404dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/singles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="#222"
+                android:padding="20dp"
+                android:text="Singles"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/doubles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp"
+                android:background="#222"
+                android:padding="20dp"
+                android:text="Doubles"
+                android:onClick="startDoubles"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
